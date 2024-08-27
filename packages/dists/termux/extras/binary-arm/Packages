@@ -1,0 +1,28 @@
+Package: fpc
+Version: 3.2.2
+Architecture: arm
+Maintainer: ptah <ptah@amigoxpe.net>
+Installed-Size: 90143
+Depends: binutils
+Homepage: https://github.com/PTz0uAH/termuxified
+Description: FreePascal v3.2.2 (unofficial) optional package for Termux ARM
+ Compiled on FireStick Termux ARM Android 9
+ Packaged on iPlay50-mini-Pro Termux AARCH64 Android 13
+ .
+ Installation step 1> "dpkg -i fpc-3.2.2.arm-termux.deb"
+ .            step 2> "cd $PREFIX/opt"
+ .            step 3> "./install_freepascal.sh"
+ .
+ Testing      step 1> "cd fpc-3.2.2.arm-termux/termux/tests/Hoi"
+ .            step 2> "fpc Hoi.pp"
+ .            step 3> "./Hoi"
+ .
+ With kind regards
+ PTz(Peter Slootbeek)uAH
+Filename: dists/termux/extras/binary-arm/fpc-3.2.2.arm-termux.deb
+Size: 89834620
+MD5Sum: 97661bb12b1e3738f6ef3e1f2665d179
+SHA1: 891a51ffe81e14421f1aa4781f8f1ef70888d38c
+SHA256: 5419ae65140763147c9b6c2ab65e8d42f0f8a5d6fb7ef693fe0fc815f85576fc
+SHA512: a6a74de367573a666d98f5ed6852ca630b8930af02e6d2bbb18e413e73aa3ffea96b1f0bc37e17d11db2c22169f852970ced3976d41d5aadeb3cbc72a5e05401
+
