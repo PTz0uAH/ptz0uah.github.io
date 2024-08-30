@@ -2,13 +2,14 @@ Package: fpc
 Version: 3.2.2
 Architecture: arm
 Maintainer: ptah <ptah@amigoxpe.net>
-Installed-Size: 90143
+Installed-Size: 39145
 Depends: binutils
 Homepage: https://github.com/PTz0uAH/termuxified
 Description: FreePascal v3.2.2 (unofficial) optional package for Termux ARM
  Compiled on FireStick Termux ARM Android 9
  Packaged on iPlay50-mini-Pro Termux AARCH64 Android 13
  .
+ .( skip step 1 if installed with "pkg install fpc" )
  Installation step 1> "dpkg -i fpc-3.2.2.arm-termux.deb"
  .            step 2> "cd $PREFIX/opt"
  .            step 3> "./install_freepascal.sh"
@@ -20,9 +21,59 @@ Description: FreePascal v3.2.2 (unofficial) optional package for Termux ARM
  With kind regards
  PTz(Peter Slootbeek)uAH
 Filename: dists/termux/extras/binary-arm/fpc-3.2.2.arm-termux.deb
-Size: 89834620
-MD5Sum: 97661bb12b1e3738f6ef3e1f2665d179
-SHA1: 891a51ffe81e14421f1aa4781f8f1ef70888d38c
-SHA256: 5419ae65140763147c9b6c2ab65e8d42f0f8a5d6fb7ef693fe0fc815f85576fc
-SHA512: a6a74de367573a666d98f5ed6852ca630b8930af02e6d2bbb18e413e73aa3ffea96b1f0bc37e17d11db2c22169f852970ced3976d41d5aadeb3cbc72a5e05401
+Size: 39253144
+MD5Sum: 598604d3521fcec7a7a582fec0d8aa2a
+SHA1: a9804b939774db30f7aff32aa4d5c80461aabbce
+SHA256: 54612e07ffee92f47335aa41b5eb40eead2e46e4f9160ae24a7af0c99573a8be
+SHA512: e2749701ebaf5418733554496935299e4645820fdfcba61e51d7f3df7ae382914a88008656fca3477f039e0c9d57da31366364777f93a3ad1ab0bdebed59bb7d
+
+Package: fpcmkcfg
+Version: 3.2.2
+Architecture: arm
+Maintainer: ptah <ptah@amigoxpe.net>
+Installed-Size: 655
+Depends: nano
+Homepage: https://github.com/PTz0uAH/termuxified
+Description: FreePascal "fpcmkcfg" v3.2.2 core-utility to create config file for fpc 
+ Compiled on FireStick Termux ARM Android 9
+ Packaged on iPlay50-mini-Pro Termux AARCH64 Android 13
+ .( skip step 1 if installing from my repo with "pkg intall fpcmkcfg" )
+ Installation step 1> "dpkg -i fpcmkcfg-3.2.2.arm-termux.deb"
+ .    Confirm step 2> "echo fpcmkcfg is installed to `which fpcmkcfg`"
+ .        Use step 3> "fpcmkcfg -d basepath=$FPCDIR -o $HOME/.fpc.cfg"
+ .
+ Removal      step 1> "pkg uninstall fpcmkcfg"
+ .
+ With kind regards
+ PTz(Peter Slootbeek)uAH
+Filename: dists/termux/extras/binary-arm/fpcmkcfg-3.2.2.arm-termux.deb
+Size: 181760
+MD5Sum: 6f2f5b4482491328b169f4babe801374
+SHA1: 0caa6022ec8eab3d690dca102746c418e9d60281
+SHA256: a74d6d6314538c234b9bc583bec5fee6c90faa29771793cddc906e072470be74
+SHA512: 5337d529c3f489fcb2d85500ae2a2c2c2e635e3774a250accee3d6018b9716d0580cddb591b33ae42fa594d466dda48798926c34fdd3dbef9f8b84a0d9184423
+
+Package: fpcsrc
+Version: 3.2.2
+Architecture: arm
+Maintainer: ptah <ptah@amigoxpe.net>
+Installed-Size: 51017
+Depends: binutils
+Homepage: https://github.com/PTz0uAH/termuxified
+Description: FreePascal v3.2.2 source package for fpc on Termux ARM
+ Packaged on iPlay50-mini-Pro Termux AARCH64 Android 13
+ .
+ .( skip step 1 if installed with "pkg install fpcsrc" )
+ Installation step 1> "dpkg -i fpcsrc-3.2.2.arm-termux.deb"
+ .            step 2> "cd $PREFIX/opt"
+ .            step 3> "./install_fpcsrc.sh"
+ .
+ With kind regards
+ PTz(Peter Slootbeek)uAH
+Filename: dists/termux/extras/binary-arm/fpcsrc-3.2.2.arm-termux.deb
+Size: 50613192
+MD5Sum: c87ab1e1ce41247cd8bec99de4ffe69d
+SHA1: 1c58fe46642de3bcaf3db837b6679935f451882f
+SHA256: 57a2b4fa6bb3a5aa001e77e04e921a500d6fcc7dc26177295ea73a7759a67194
+SHA512: 9d1e66f356926ef73e5b004f7efd9eeaec12d00698bcb77153a3bcb3833ba3354374add45e94315de7b8a2539e8a0e8a1d13097fa04de9ec3555148895715a0e
 
