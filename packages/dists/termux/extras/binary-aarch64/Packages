@@ -1,0 +1,24 @@
+Package: fpcsrc
+Version: 3.2.2
+Architecture: aarch64
+Maintainer: ptah <ptah@amigoxpe.net>
+Installed-Size: 50935
+Depends: binutils
+Homepage: https://github.com/PTz0uAH/termuxified
+Description: FreePascal v3.2.2 source package for fpc on Termux AARCH64
+ Packaged on iPlay50-mini-Pro Termux AARCH64 Android 13
+ .
+ .( skip step 1 if installed with "pkg install fpcsrc" )
+ Installation step 1> "dpkg -i fpcsrc-3.2.2.aarch-termux.deb"
+ .            step 2> "cd $PREFIX/opt"
+ .            step 3> "./install_fpcsrc.sh"
+ .
+ With kind regards
+ PTz(Peter Slootbeek)uAH
+Filename: dists/termux/extras/binary-aarch64/fpcsrc-3.2.2.aarch64-termux.deb
+Size: 50484504
+MD5Sum: 201269023ef3e0e6c1537ec4710ea1a3
+SHA1: 363539dc051c2c00166d859a9bb8d00feda925a3
+SHA256: b67de428e9d444a0a890ff58b30bbc68195cf3fe890fe7407b3ad1e558f46bbc
+SHA512: 52428ceaf2579e90139c8f61cfea89b97cefba76600aebcb31e74858918a303087dc76820cb347f9f25a1de641a51626e7ea0ecdf9dfaf0eedeb8b3814def6d8
+
