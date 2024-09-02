@@ -27,6 +27,30 @@ SHA1: a9804b939774db30f7aff32aa4d5c80461aabbce
 SHA256: 54612e07ffee92f47335aa41b5eb40eead2e46e4f9160ae24a7af0c99573a8be
 SHA512: e2749701ebaf5418733554496935299e4645820fdfcba61e51d7f3df7ae382914a88008656fca3477f039e0c9d57da31366364777f93a3ad1ab0bdebed59bb7d
 
+Package: fpcdoc
+Version: 3.2.2
+Architecture: arm
+Maintainer: ptah <ptah@amigoxpe.net>
+Installed-Size: 1773
+Depends: tar
+Homepage: https://github.com/PTz0uAH/termuxified
+Description: FreePascal v3.2.2 Documentation package (txt) for FPC
+ Packaged on iPlay50-mini-Pro Termux AARCH64 Android 13
+ .
+ .( skip step 1 if installed with "pkg install fpcdoc" )
+ Installation step 1> "dpkg -i fpcdoc-3.2.2.arm-termux.deb"
+ .            step 2> "cd $PREFIX/opt"
+ .            step 3> "./install_fpcdoc.sh"
+ .
+ With kind regards
+ PTz(Peter Slootbeek)uAH
+Filename: dists/termux/extras/binary-arm/fpcdoc-3.2.2.arm-termux.deb
+Size: 1816044
+MD5Sum: de9ddc38155b6dbfac7f79096df38bff
+SHA1: 9dc8de9d417bf217e6a8e33704dc1e269999ed6c
+SHA256: 2712c83d841d3a52568856f08320ddcb08efe6cb55e65992f445d9a178859293
+SHA512: aba5f247b4fb279b00f6118cf71af9424fd7e0a9e94a363675f0197e9b977dfcc962901c91d91cd4c345be44e202c0113efc1ad7228e9647532e6e47ae908461
+
 Package: fpcmkcfg
 Version: 3.2.2
 Architecture: arm
