@@ -1,3 +1,5 @@
+data/data/com.termux/files/usr/opt/fpc-3.2.2.aarch64-termux.tar.gz               fpc
+data/data/com.termux/files/usr/opt/install_fpc.sh                                fpc
 data/data/com.termux/files/usr/opt/fpcdoc-3.2.2.aarch64-termux.tar.gz            fpcdoc
 data/data/com.termux/files/usr/opt/install_fpcdoc.sh                             fpcdoc
 data/data/com.termux/files/usr/opt/fpcsrc-3.2.2.aarch-termux.tar.gz              fpcsrc

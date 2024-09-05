@@ -12,7 +12,7 @@ Description: FreePascal v3.2.2 (unofficial) optional package for Termux ARM
  .( skip step 1 if installed with "pkg install fpc" )
  Installation step 1> "dpkg -i fpc-3.2.2.arm-termux.deb"
  .            step 2> "cd $PREFIX/opt"
- .            step 3> "./install_freepascal.sh"
+ .            step 3> "./install_fpc.sh"
  .
  Testing      step 1> "cd fpc-3.2.2.arm-termux/termux/tests/Hoi"
  .            step 2> "fpc Hoi.pp"
@@ -21,11 +21,11 @@ Description: FreePascal v3.2.2 (unofficial) optional package for Termux ARM
  With kind regards
  PTz(Peter Slootbeek)uAH
 Filename: dists/termux/extras/binary-arm/fpc-3.2.2.arm-termux.deb
-Size: 39253144
-MD5Sum: 598604d3521fcec7a7a582fec0d8aa2a
-SHA1: a9804b939774db30f7aff32aa4d5c80461aabbce
-SHA256: 54612e07ffee92f47335aa41b5eb40eead2e46e4f9160ae24a7af0c99573a8be
-SHA512: e2749701ebaf5418733554496935299e4645820fdfcba61e51d7f3df7ae382914a88008656fca3477f039e0c9d57da31366364777f93a3ad1ab0bdebed59bb7d
+Size: 39251124
+MD5Sum: 35f853b2c506cea7d62d8474c5a995e9
+SHA1: f7faeb6a7764528d81f07150f90f2a2779770bf2
+SHA256: 2cf67a6de7b06a7e7fb23668a0520800776fea3db232bb252daa0974e18bc9a6
+SHA512: f7010a1a3fe0798edb2789ca0ce2b00967eba143fedcffbea67931afb61d464a62f20eded8a56c412a5c184e577bedc28935c27062c4abb6ce0323369c8fc721
 
 Package: fpcdoc
 Version: 3.2.2

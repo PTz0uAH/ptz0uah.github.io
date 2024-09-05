@@ -1,3 +1,27 @@
+Package: fpc
+Version: 3.2.2
+Architecture: aarch64
+Maintainer: ptah <ptah@amigoxpe.net>
+Installed-Size: 39474
+Depends: binutils
+Homepage: https://github.com/PTz0uAH/termuxified
+Description: FreePascal v3.2.2 (unofficial) optional package for Termux AARCH64
+ Compiled/Packaged on iPlay50-mini-Pro Termux AARCH64 Android 13
+ .
+ .( skip step 1 if deb was installed via "pkg install fpc" ) 
+ Installation step 1> "dpkg -i fpc-3.2.2.aarch64-termux.deb"
+ .            step 2> "cd $PREFIX/opt"
+ .            step 3> "./install_fpc.sh"
+ .
+ With kind regards
+ PTz(Peter Slootbeek)uAH
+Filename: dists/termux/extras/binary-aarch64/fpc-3.2.2.aarch64-termux.deb
+Size: 39280588
+MD5Sum: 3bf67e209244c2147129b817bc4258fb
+SHA1: ad0242300653ff04f2760218729cf5a5e44b71b6
+SHA256: cee26013a86101b77d3522725ec60c594562457ea294c7c0efb835c4aa2ea796
+SHA512: 40c9c7b539b4b8c92dac3a321f7ed1f18ab1c1a9e8902f0ce938e3377a2775af6c64c03008c93e16f038e2bda8c1b90a2679fe2fb33c7d4a27ab62f564400eaf
+
 Package: fpcdoc
 Version: 3.2.2
 Architecture: aarch64
